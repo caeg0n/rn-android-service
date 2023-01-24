@@ -8,7 +8,7 @@ import {name as appName} from './app.json';
 import ReactNativeForegroundService from "@supersami/rn-foreground-service";
 
 const tarefa_in_the_foreground = () => {
-    console.log("bingo!")
+  console.log("bingo!")
 }
 
 ReactNativeForegroundService.register();
